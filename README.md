@@ -10,7 +10,7 @@ VoxTask is a demo-ready, voice-first meeting and task extraction platform built 
 
 ## 🌟 Live Links
 
-- 🌐 **Landing Page (GitHub Pages)**: [https://nandini443.github.io/voxtask-multilingual/](https://nandini443.github.io/voxtask-multilingual/)
+- 🌐 **Landing Page (GitHub Pages)**:https://github.com/Nandini443/voxtask-multilingual
 - 🎈 **Streamlit App (Cloud Deployment)**: https://voxtask-multilingual.streamlit.app/
 - 📄 **Local Landing Page**: [`index.html`](file:///C:/Users/user/.gemini/antigravity-ide/scratch/voxtask/index.html)
 
