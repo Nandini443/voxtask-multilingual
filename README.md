@@ -1,11 +1,24 @@
 # 🎙️ VoxTask: Voice-First Multilingual Meeting Task Extractor
 
+[![Live Landing Page](https://img.shields.io/badge/Website-VoxTask%20Landing%20Page-indigo?style=for-the-badge&logo=googlechrome)](https://nandini443.github.io/voxtask-multilingual/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=Nandini443/voxtask-multilingual&branch=main&mainModule=app.py)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Nandini443%2Fvoxtask--multilingual-blue?logo=github)](https://github.com/Nandini443/voxtask-multilingual)
+
 VoxTask is a demo-ready, voice-first meeting and task extraction platform built for hackathons. It transcribes English, Telugu, and Tenglish (code-switched) speech using fine-tuned Telugu Wav2Vec2 (`nandinipapisetti/swecha-gonthuka-asr`) alongside `openai/whisper-small`, and extracts structured tasks using local Ollama (Mistral) with BYOK cloud fallbacks (OpenAI / Anthropic).
+
+---
+
+## 🌟 Live Links
+
+- 🌐 **Landing Page (GitHub Pages)**: [https://nandini443.github.io/voxtask-multilingual/](https://nandini443.github.io/voxtask-multilingual/)
+- 🎈 **Streamlit App (Cloud Deployment)**: [Deploy on Streamlit Community Cloud](https://share.streamlit.io/deploy?repository=Nandini443/voxtask-multilingual&branch=main&mainModule=app.py)
+- 📄 **Local Landing Page**: [`index.html`](file:///C:/Users/user/.gemini/antigravity-ide/scratch/voxtask/index.html)
 
 ---
 
 ## 🏗️ Architecture
 
+- **`index.html`**: Vibrant, modern product landing page with dark mode, interactive flow, feature showcase & Streamlit embed.
 - **`app.py`**: Streamlit dashboard entrypoint (audio uploader, mic recorder, task checklist, PDF export).
 - **`asr.py`**: Hybrid speech-to-text pipeline (Whisper-small + Swecha Wav2Vec2 CTC Telugu decoder + routing).
 - **`extractor.py`**: Task extraction engine (Ollama local LLM + BYOK Cloud + Regex fallback).
@@ -15,7 +28,7 @@ VoxTask is a demo-ready, voice-first meeting and task extraction platform built 
 
 ---
 
-## ⚡ Quick Start & Setup
+## ⚡ Quick Start & Local Setup
 
 ### 1. Install Dependencies
 ```bash
